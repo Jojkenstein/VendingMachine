@@ -10,7 +10,7 @@ using System.Xml.Linq;
 
 namespace VendingMachine
 {
-    internal class VMManager : IVending
+    public class VMManager : IVending
     {
         public VMManager()
         {
