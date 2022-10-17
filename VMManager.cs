@@ -18,8 +18,11 @@ namespace VendingMachine
             Purchases = new List<Product>();
             CreateProductList();
             availableFunds = 0;
-            _customer = true;
+        }
 
+        public void RunMe()
+        {
+            _customer = true;
             while (_customer)
             {
                 MainMenu();

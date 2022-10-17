@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace VendingMachine
 {
-    internal abstract class Product
+    public abstract class Product
     {
         public Product(string name, int sizeVal, string sizeUnit, int price)
         {
